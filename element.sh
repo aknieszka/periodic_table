@@ -27,9 +27,5 @@ do
 done
 fi
 
-if [[ -n $1 && $1 -ne $ATOMIC_NUMBER && $1 != "$SYMBOL" && $1 != "$NAME" ]]
-then
-  echo "I could not find that element in the database."
-fi
 
 
